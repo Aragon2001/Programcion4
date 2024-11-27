@@ -15,6 +15,7 @@ namespace ProyectoProgramacion4
         public Form1()
         {
             InitializeComponent();
-        }
+
+        }hola
     }
 }
