@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btn_Ingresar = new System.Windows.Forms.Button();
+            this.txt_Cedula = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_Ingresar
@@ -40,21 +41,31 @@
             this.btn_Ingresar.Text = "Ingresar";
             this.btn_Ingresar.UseVisualStyleBackColor = true;
             // 
+            // txt_Cedula
+            // 
+            this.txt_Cedula.Location = new System.Drawing.Point(198, 130);
+            this.txt_Cedula.Name = "txt_Cedula";
+            this.txt_Cedula.Size = new System.Drawing.Size(154, 22);
+            this.txt_Cedula.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(540, 450);
+            this.Controls.Add(this.txt_Cedula);
             this.Controls.Add(this.btn_Ingresar);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btn_Ingresar;
+        private System.Windows.Forms.TextBox txt_Cedula;
     }
 }
 
