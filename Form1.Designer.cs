@@ -30,29 +30,42 @@
         {
             this.btn_Ingresar = new System.Windows.Forms.Button();
             this.txt_Cedula = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Ingresar
             // 
-            this.btn_Ingresar.Location = new System.Drawing.Point(198, 271);
+            this.btn_Ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ingresar.Location = new System.Drawing.Point(199, 297);
             this.btn_Ingresar.Name = "btn_Ingresar";
-            this.btn_Ingresar.Size = new System.Drawing.Size(130, 47);
+            this.btn_Ingresar.Size = new System.Drawing.Size(141, 30);
             this.btn_Ingresar.TabIndex = 0;
             this.btn_Ingresar.Text = "Ingresar";
             this.btn_Ingresar.UseVisualStyleBackColor = true;
             // 
             // txt_Cedula
             // 
-            this.txt_Cedula.Location = new System.Drawing.Point(198, 130);
+            this.txt_Cedula.Location = new System.Drawing.Point(194, 159);
             this.txt_Cedula.Name = "txt_Cedula";
-            this.txt_Cedula.Size = new System.Drawing.Size(154, 22);
+            this.txt_Cedula.Size = new System.Drawing.Size(141, 22);
             this.txt_Cedula.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(195, 125);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Cedula";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(540, 450);
+            this.ClientSize = new System.Drawing.Size(540, 402);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Cedula);
             this.Controls.Add(this.btn_Ingresar);
             this.Name = "Form1";
@@ -66,6 +79,7 @@
 
         private System.Windows.Forms.Button btn_Ingresar;
         private System.Windows.Forms.TextBox txt_Cedula;
+        private System.Windows.Forms.Label label1;
     }
 }
 
