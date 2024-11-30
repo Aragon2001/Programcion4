@@ -37,7 +37,7 @@
             // 
             this.btn_Ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ingresar.Location = new System.Drawing.Point(149, 230);
-            this.btn_Ingresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Ingresar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Ingresar.Name = "btn_Ingresar";
             this.btn_Ingresar.Size = new System.Drawing.Size(106, 24);
             this.btn_Ingresar.TabIndex = 0;
@@ -47,7 +47,7 @@
             // txt_Cedula
             // 
             this.txt_Cedula.Location = new System.Drawing.Point(146, 129);
-            this.txt_Cedula.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Cedula.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Cedula.Name = "txt_Cedula";
             this.txt_Cedula.Size = new System.Drawing.Size(107, 20);
             this.txt_Cedula.TabIndex = 1;
@@ -71,7 +71,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_Cedula);
             this.Controls.Add(this.btn_Ingresar);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
