@@ -16,6 +16,8 @@ namespace ProyectoProgramacion4
         {
             InitializeComponent();
 
-        }hola johan fgg
+        }
+        
+       
     }
 }
